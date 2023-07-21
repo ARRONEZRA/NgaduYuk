@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>NgaduYuk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" type="text/css" /> 
+    <link rel="stylesheet" href="css/slick.css" type="text/css" />   
+    <link rel="stylesheet" href="css/tooplate-simply-amazed.css" type="text/css" />
+
+</head>
+
+<body>
+    <div id="outer">
+        <header class="header order-last" id="tm-header">
+            <nav class="navbar">
+                <div class="collapse navbar-collapse single-page-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-1"><span class="icn"><i class="fas fa-2x fa-air-freshener"></i></span> Homepage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-2"><span class="icn"><i class="fab fa-2x fa-battle-net"></i></span> Tata Cara Pelaporan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-3"><span class="icn"><i class="far fa-2x fa-images"></i></span> Form Pelaporan</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <button class="navbar-button collapsed" type="button">
+            <span class="menu_icon">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </span>
+        </button>
+        
+        <main id="content-box" class="order-first">
+            <bottom><a href="masuk.php">+ &nbsp; Login Admin</a><bottom></bottom>
+            <div class="banner-section section parallax-window" data-parallax="scroll" data-image-src="img/section-1-bg.jpg" id="section-1">
+                <div class="container">
+                    <div class="item">
+                        <div class="bg-blue-transparent logo-fa">
+                            <img src="img/Ngaduyuk.png"
+                            height="75%" width="75%"></i></span>NgaduYuk</div>
+                        <div class="bg-blue-transparent simple"><p>Website Untuk Melaporkan Adanya Parkir Liar</p></div>
+                    </div>
+                </div>
+            </div>
+        
+            <section class="work-section section" id="section-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="item col-md-4">
+                            <div class="tm-work-item-inner">
+                                <div class="icn"><i class="fas fa-2x fa-icons"></i></div>
+                                <h3>.01 Upload Informasi Pungli</h3>
+                                <p>Tolong berikan informasi berupa foto dan juga lokasi pasti dari kejadian.</p>
+                            </div>                        
+                        </div>
+                        <div class="item col-md-4 one">
+                            <div class="tm-work-item-inner">
+                                <div class="icn"><i class="fas fa-2x fa-tools"></i></div>
+                                <h3>.02 Berikan Identitas</h3>
+                                <p>Tolong berikan nama dan juga email untuk melakukan proses pelaporan.</p>
+                            </div>
+                        </div>
+                        <div class="item col-md-4 two">
+                            <div class="tm-work-item-inner">
+                                <div class="icn"><i class="fab fa-2x fa-phoenix-framework"></i></div>
+                                <h3>.03 Tunggu Konfirmasi</h3>
+                                <p>Silahkan tunggu informasi lebih lanjut dari pihak yang berwenang.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h2>Tata Cara Pelaporan</h2>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery-section section parallax-window" data-parallax="scroll" data-image-src="img/section-3-bg.jpg" id="section-3">
+                <div class="container">
+                    <div class="title text-center">
+                      <!DOCTYPE html>
+                      <html>
+                        <head>
+                          <title>Upload Informasi</title>
+                          
+                          
+                        </head>
+                        <body>
+                          <center><h1>Silahkan Klik Dibawah Ini Untuk Melakukan Pengaduan</h1><center>
+                            <head>
+                                <style>
+                                  /* CSS untuk pop-up */
+                                  .popup {
+                                    display: none;
+                                    position: fixed;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    background-color: #f1f1f1;
+                                    padding: 20px;
+                                    border: 1px solid #ccc;
+                                    border-radius: 5px;
+                                    z-index: 9999;
+                                  }
+                              
+                                  /* CSS untuk tombol penutup pop-up */
+                                  .close {
+                                    float: right;
+                                    cursor: pointer;
+                                  }
+                                </style>
+                              </head>
+                              <body>
+                              
+                                <!-- Tombol untuk membuka pop-up -->
+                                <button onclick="showPopup()">Tambah Pengaduan</button>
+                              
+                                <!-- Pop-up -->
+                                <div id="myPopup" class="popup">
+                                  <span class="close" onclick="hidePopup()">&times;</span>
+                                  
+                                <!DOCTYPE html>
+                                <html>
+                                  <head>
+                                    <title>Form Upload Foto</title>
+                                    <style type="text/css">
+                                      * {
+                                        font-family: "Trebuchet MS";
+                                      }
+                                      h1 {
+                                        text-transform: uppercase;
+                                        color: blue;
+                                      }
+                                    button {
+                                          background-color: blue;
+                                          color: #fff;
+                                          padding: 10px;
+                                          text-decoration: none;
+                                          font-size: 12px;
+                                          border: 0px;
+                                          margin-top: 20px;
+                                    }
+                                    label {
+                                      margin-top: 10px;
+                                      float: left;
+                                      text-align: left;
+                                      width: 100%;
+                                    }
+                                    input {
+                                      padding: 6px;
+                                      width: 100%;
+                                      box-sizing: border-box;
+                                      background: #f8f8f8;
+                                      border: 2px solid #ccc;
+                                      outline-color: rgb(104, 138, 250);
+                                    }
+                                    div {
+                                      width: 100%;
+                                      height: auto;
+                                    }
+                                    .base {
+                                      width: 400px;
+                                      height: auto;
+                                      padding: 20px;
+                                      margin-left: auto;
+                                      margin-right: auto;
+                                      background: #ededed;
+                                    }
+                                    </style>
+                                  </head>
+                                  <body>
+                                      <center>
+                                        <h1>Form Pengaduan</h1>
+                                      <center>
+                                      <form method="POST" action="proses_tambah.php" enctype="multipart/form-data" >
+                                      <section class="base">
+                                        <div>
+                                          <label>Nama</label>
+                                          <input type="text" name="nama" autofocus="" required="" />
+                                        </div>
+                                        <div>
+                                          <label>Email</label>
+                                         <input type="text" name="email" required="" />
+                                        </div>
+                                        <div>
+                                          <label>Deskripsi</label>
+                                         <input type="text" name="deskripsi" />
+                                        </div>
+                                        <div>
+                                          <label>Gambar</label>
+                                         <input type="file" name="gambar" required="" />
+                                        </div>
+                                        <div>
+                                         <button type="submit">Ngadukan</button>
+                                        </div>
+                                        </section>
+                                      </form>
+                                  </body>
+                                </html>
+                                </div>
+                              
+                                <script>
+                                  // Fungsi untuk menampilkan pop-up
+                                  function showPopup() {
+                                    document.getElementById('myPopup').style.display = 'block';
+                                  }
+                              
+                                  // Fungsi untuk menyembunyikan pop-up
+                                  function hidePopup() {
+                                    document.getElementById('myPopup').style.display = 'none';
+                                  }
+                                </script>
+                              </body>
+                          <br/>
+                         
+                          </tbody>
+                          </table>
+                        </body>
+                      </html>
+                </footer>
+            </section>
+        </main>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+</body>
+</html>
